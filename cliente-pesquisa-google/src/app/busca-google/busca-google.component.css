@@ -1,0 +1,38 @@
+.title{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 32pt;
+  font-weight: bolder;
+}
+
+.layout{
+  text-align: center;
+  margin-top: 70px;
+  margin-left: 320px;
+  margin-right: 320px;
+  padding: 50px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, .4);
+}
+
+.label-format{
+  font-size: 16pt;
+  font-weight: bold;
+  color: blue;
+}
+
+.resultPesquisa{
+  margin-top: 20px;
+  padding-top: 20px;
+  text-align: left;
+  margin-left: 320px;
+  margin-right: 320px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, .4);
+}
+
+.msgErro{
+  text-align: center;
+  font-weight: bolder;
+  margin-top: 5px;
+  margin-left: 320px;
+  margin-right: 320px;
+}

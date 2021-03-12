@@ -1,0 +1,28 @@
+
+<h1 class="title">Pesquisar no Google</h1>
+<div class="layout">
+<div class="form-group">
+  <div class="col-md-12 label-format">
+    <label for="busca" class="control-label">Campo de busca do Google</label>
+  </div>
+  <div class="col-md-12">
+    <input type="text" class="form-control" name="busca"
+    id="busca" placeholder="Digite a palavra a ser pesquisada no google" #busca/>
+  </div>
+  <br>
+  <div class="col-md-12">
+    <button class="btn btn-info" (click)="getSearch(busca.value)">Pesquisar</button>
+  </div>
+</div>
+</div>
+<div class="alert alert-danger msgErro" *ngIf="campoVazio == true" >
+  {{ msgErro }}
+</div>
+<div class="resultPesquisa" *ngIf="(resultadoPesquisa != undefined || resultadoPesquisa != null) && campoVazio == false">
+  <ul>
+    <ol *ngFor="let pesquisa of resultadoPesquisa">
+      {{ pesquisa.titulo }} <br>
+      <a href="https://{{ pesquisa.link }}" rel="noopener" target="_blank">{{ pesquisa.link }}</a> <br><br>
+    </ol>
+  </ul>
+</div>
