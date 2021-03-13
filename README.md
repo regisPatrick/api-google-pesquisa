@@ -70,6 +70,8 @@
 
 <ul>
   <li>
-    localhost:4200  e a tela de consulta aparecerá.
+    localhost:4200
   </li>
 </ul>
+
+<p>E a tela de consulta aparecerá.</p>
