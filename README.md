@@ -1,6 +1,6 @@
 <h1>api-google-pesquisa</h1>
 
-<h2>back-end</h2>
+<h2>Back-end</h2>
 <h3>api-pesquisa-google<h3>
 
 <p>No back-end, desenvolvi  o projeto chamado api-pesquisa-google, fiz este projeto em Java, utilizando:</p> 
@@ -33,4 +33,42 @@
 
 <p>Ao rodar esse projeto ele subira na porta 8080 e estará pronto para receber as requisições do front-end.</p>
 
-No front-end desenvolvi o projeto chamado cliente-pesquisa-google, utilizando o Angular CLI versão 9.1.11 no Visual Studio Code 1.38.1.0 . Depois de fazer o clone deste projeto e abrir ele, executar na linha de comando no diretório deste projeto o comando npm install para instalar todas as dependências, e com as dependências todas instaladas, executar o comando ng-serve para rodar esse projeto. Ao rodar esse projeto ele subira na porta 4200 e estará pronto para fazer as requisições para a porta 8080. Abra o browser e coloque o seguinte endereço na URL:  localhost:4200  e a tela de consulta aparecerá.
+<h2>Front-end</h2>
+<h3>cliente-pesquisa-google</h3>
+
+<p>No front-end desenvolvi o projeto chamado cliente-pesquisa-google, utilizando:</p>
+
+<ul>
+  <li>
+    Angular CLI versão 9.1.11
+  </li>
+  <li>
+    Visual Studio Code 1.38.1.0
+  </li>
+</ul>
+
+<p>Depois de fazer o clone deste projeto e abrir ele, executar na linha de comando no diretório deste projeto o comando:</p> 
+
+<ul>
+  <li>
+    npm install (para instalar todas as dependências)
+  </li>
+</ul>
+
+<p>E com as dependências todas instaladas, executar o comando:</p>
+
+<ul>
+  <li>
+    ng-serve (para rodar esse projeto)  
+  </li>
+</ul>
+ 
+<p>Ao rodar esse projeto ele subira na porta 4200 e estará pronto para fazer as requisições para a porta 8080</p> 
+ 
+<p>Abra o browser e coloque o seguinte endereço na URL:</p>  
+
+<ul>
+  <ol>
+    localhost:4200 (e a tela de consulta aparecerá.)    
+  <ol>
+</ul>
