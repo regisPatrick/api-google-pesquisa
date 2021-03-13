@@ -1,7 +1,10 @@
-<h2>Back-end</h2>
-<h3>api-pesquisa-google<h3>
+<h1>api-google-pesquisa</h1>
 
-<p>No back-end, desenvolvi  o projeto chamado api-pesquisa-google, fiz este projeto em Java, utilizando:</p> 
+<h2>Back-end</h2>
+
+<h3>api-pesquisa-google</h3>
+
+<p>No back-end, desenvolvi  o projeto chamado api-pesquisa-google, fiz este projeto em Java, utilizando:</p>
 
 <ul>
   <li>
@@ -30,4 +33,3 @@
 </ul>
 
 <p>Ao rodar esse projeto ele subira na porta 8080 e estará pronto para receber as requisições do front-end.</p>
-
